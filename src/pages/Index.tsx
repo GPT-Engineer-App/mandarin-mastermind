@@ -3,13 +3,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Index: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <Card className="w-full max-w-2xl mx-4">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
+      <Card className="w-full max-w-2xl mx-4 bg-white dark:bg-gray-800">
         <CardHeader>
-          <CardTitle className="text-3xl font-bold text-center">My Blog</CardTitle>
+          <CardTitle className="text-3xl font-bold text-center text-gray-900 dark:text-gray-100">My Blog</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="prose max-w-none">
+          <div className="prose max-w-none text-gray-900 dark:text-gray-100">
             <h2>Welcome to My Blog</h2>
             <p>
               This is a basic blog page with a title and content area. You can start writing your blog posts here.
